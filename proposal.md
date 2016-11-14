@@ -30,14 +30,14 @@ With this variation of 10 Bullets, users will be able to:
 
 In addition, this project will include:
 
-- [ ] An About modal describing the background and rules of the game
+- [ ] An About modal describing the rules of the game
 - [ ] A production Readme
 
 ### Wireframes
 
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will include Start, Pause, Reset buttons, as well controls to move the firing 'cannon' left and right and to fire.
 
-![wireframes](https://github.com/appacademy/job-search-curriculum/blob/master/job-search-projects/images/js_wireframe.jpeg)
+![wireframes](images/game_wireframe.jpg)
 
 ### Architecture and Technologies
 
@@ -68,11 +68,11 @@ In addition to the webpack entry file, there will be three scripts involved in t
 
 **Day 2**: Dedicate this day to learning the `Easel.js` API.  First, build out the `Ship` object to connect to the `GameView` object.  Then, use `game_view.js` to create and render the game area. Add the ability to randomly generate a specific number of `Ship` objects in the view. Goals for the day:
 
-- Complete the `ship.js` module (constructor, update functions)
+- Complete the `ship.js` module
 - Render a game area to the `Canvas` using `Easel.js`
-- Make ships that move around within the confines of the game area
+- Create ships that move around within the confines of the game area
 
-**Day 3**: Create the Cannon and Projectile elements. Create the reaction logic backend.  Build out modular functions for how Ships behave when hit by a projectile.  Incorporate the reaction logic into the `GameView.js` rendering. Goals for the day:
+**Day 3**: Create the Cannon and Projectile elements. Create the reaction logic backend.  Build modular functions for how Ships behave when hit by a projectile.  Incorporate the reaction logic into the `GameView.js` rendering. Goals for the day:
 
 - Create `Ship` and `Projectile` objects
 - Export an `Reaction` object with correct handling logic
@@ -91,7 +91,7 @@ In addition to the webpack entry file, there will be three scripts involved in t
 There are a number of additional features that I could add to the game, some of them are:
 
 - [ ] Add additional difficulty to higher levels, such as ships with different properties (eg: requiring more than one projectile to destroy, increased speed, etc...)
-- [ ] Add powerups, such as explosions that release more projectiles or extra bullets
+- [ ] Add powerups, such as extra bullets or causing explosions to release additional projectiles
 - [ ] Continue to improve the game appearance.
 
 
