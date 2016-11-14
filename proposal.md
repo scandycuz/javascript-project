@@ -33,9 +33,9 @@ In addition, this project will include:
 - [ ] An About modal describing the rules of the game
 - [ ] A production Readme
 
-### Wireframes
+### Wireframe
 
-This app will consist of a single screen with game board, information about keybindings for game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will include Start, Pause, and Restart, as well moving the firing 'cannon' left and right and firing.
+This app will consist of a single screen with the game view, information about keybindings for game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will include Start, Pause, and Restart, as well moving the firing 'cannon' left and right and firing.
 
 ![wireframes](images/game_wireframe.jpg)
 
