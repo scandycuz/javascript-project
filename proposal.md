@@ -35,7 +35,7 @@ In addition, this project will include:
 
 ### Wireframes
 
-This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will include Start, Pause, Reset buttons, as well controls to move the firing 'cannon' left and right and to fire.
+This app will consist of a single screen with game board, information about keybindings for game controls, and nav links to the Github, my LinkedIn, and the About modal. Game controls will include Start, Pause, and Restart, as well moving the firing 'cannon' left and right and firing.
 
 ![wireframes](images/game_wireframe.jpg)
 
@@ -93,13 +93,3 @@ There are a number of additional features that I could add to the game, some of 
 - [ ] Add additional difficulty to higher levels, such as ships with different properties (eg: requiring more than one projectile to destroy, increased speed, etc...)
 - [ ] Add powerups, such as extra bullets or causing explosions to release additional projectiles
 - [ ] Continue to improve the game appearance.
-
-
-
-
-
-
-
-
-
-//
