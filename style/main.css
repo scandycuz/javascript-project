@@ -1,8 +1,10 @@
 #gameCanvas {
-  margin: 40px auto;
+  margin: 4em auto;
   margin-bottom: 0;
   display: block;
   background:#000;
+  max-height: 80vh;
+  max-width: 100%;
 }
 body {
   position: relative;
