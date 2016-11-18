@@ -23,8 +23,22 @@ The player starts with 10 shots. If the player destroys all of the targets on a 
 
 ### Additional Information
 
-```JavaScript
-  $('hello');
+Code to establish the vectors of the projectiles that fire after a target is destroyed, depending on the number of projectiles:
+
+```
+  let degrees = 360;
+  let angle = 360 / bulletCount;
+  let angles = [];
+  while(degrees > 0) {
+    angles.push(degrees);
+    degrees -= angle;
+  }
+
+  angles.forEach( (angle) => {
+    let dynamicBulletInstance = new createjs.Sprite(bullet);
+    let xVec = Math.cos(angle * 3.1459 / 180);
+    let yVec = Math.sin(angle * 3.1459 / 180);
+    dynamicBulletInstance.vector = [xVec, yVec];
 ```
 
 
