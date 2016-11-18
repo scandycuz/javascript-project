@@ -4,7 +4,7 @@
 
 The goal of this game is to hit as many targets as possible with as few shots as possible. When a target is hit by a shot, that target is destroyed, and then sends out additional shots that can then hit other targets. The more target hits that are hit consecutively starting with a single shot, the more projectiles will release after each target is destroyed.
 
-The player starts with 10 shots. If the player destroys all of the targets on a single level, they will regain the shot they used. The player also gains a shot every time points goal is met, starting at 250 points, and increasing incrementally each time. The with of the game canvas also increases every number of levels, in order to further increment the difficulty. When the player runs out of shots, the game is over.
+The player starts with 10 shots. If the player destroys all of the targets on a single level, they will regain the shot they used. The player also gains a shot every time a points goal is met, starting at 250 points, and increasing incrementally each time. The width of the game canvas also increases every number of levels, in order to further increment the difficulty. When the player runs out of shots, the game ends.
 
 ### Technologies
 
