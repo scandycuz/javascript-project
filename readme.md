@@ -23,9 +23,9 @@ The player starts with 10 shots. If the player destroys all of the targets on a 
 
 ### Additional Information
 
-Code to establish the vectors of the projectiles that fire after a target is destroyed, depending on the number of projectiles:
+Code to establish the vectors of projectiles that fire after a target is destroyed, depending on the number of projectiles:
 
-```
+```js
   let degrees = 360;
   let angle = 360 / bulletCount;
   let angles = [];
@@ -39,16 +39,12 @@ Code to establish the vectors of the projectiles that fire after a target is des
     let xVec = Math.cos(angle * 3.1459 / 180);
     let yVec = Math.sin(angle * 3.1459 / 180);
     dynamicBulletInstance.vector = [xVec, yVec];
-```
+    //...
+  });
+  ```
 
+### Future Implementation
 
-* README
-  * Link to live version
-  * Instructions on how to play/use the project
-  * List of techs/languages/plugins/APIs used
-  * Technical implementation details for anything worth mentioning
-    * Basically anything you had to stop and think about before building
-    * Code snippets for these (make sure it looks good)
-  * To-dos/future features
-* No .DS_Stores
-* Organize into /assets and /lib
+[ ] Add more sound effects / music
+[ ] Add varieties of targets with different behaviors
+[ ] Add power-ups for additional projectile behaviors
