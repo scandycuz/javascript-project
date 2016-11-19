@@ -39,7 +39,7 @@ p {
   background: #fff;
   position: absolute;
   z-index: 20;
-  width: 100%;
+  width: 600px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -52,7 +52,6 @@ p {
   color: #444;
 }
 #game-controls #user-menu {
-  visibility: hidden;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
