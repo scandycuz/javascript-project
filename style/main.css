@@ -80,17 +80,17 @@ p {
 .sound-icons:hover i, .info-icon:hover i {
   color: #FFC41E !important;
 }
-.sound-on {
+.sound-on, .sound-off {
   display: inline-block;
-}
-.sound-off {
-  display: none;
 }
 .sound-icon {
   width: 100%;
 }
 .blocker {
   z-index: 40;
+}
+.hidden {
+  display: none;
 }
 
 #info-modal a {
