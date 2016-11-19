@@ -4,11 +4,13 @@
   <meta charset="utf-8"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
   <script src="lib/sprites.js"></script>
   <script src="lib/orb.js"></script>
   <script src="lib/util.js"></script>
   <script src="lib/reaction.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="style/main.css" media="screen" title="no title">
 </head>
@@ -16,14 +18,28 @@
   <canvas id="gameCanvas"></canvas>
   <div id="cannon-cover"></div>
   <div id="game-controls">
-    <div class="score">
-      <i class="fa fa-star points-icon" aria-hidden="true"></i>&nbsp;
-      <span class="score-num"></span>
-    </div>
+    <ul id="user-menu">
+      <li class="score">
+        <i class="fa fa-star points-icon" aria-hidden="true"></i>&nbsp;
+        <span class="score-num"></span>
+      </li>
+      <li class="sound-icons">
+        <i class="fa fa-volume-up sound-on sound-icon" aria-hidden="true"></i>
+        <i class="fa fa-volume-off sound-off sound-icon" aria-hidden="true"></i>
+      </li>
+      <li class="info-icon">
+        <a href="#info-modal" rel="modal:open"><i class="fa fa-info" aria-hidden="true"></i></a>
+      </li>
+    </ul>
     <div class="shots-left">
       <span class="shots-label"></span>
       <span class="shots-left-num"></span>
     </div>
+  </div>
+
+  <div id="info-modal" style="display:none;">
+    <p>The goal of Reaction is to destroy all of the targets on a level while firing as few shots as possible. When a target is hit, it explodes and sends out additional projectiles that can strike other targets. These additional projectiles do not use up any the player's shots. The longer a chain of consecutive hits is, the more projectiles that will be released with each hit.</p>
+    <p>The player starts with 10 shots, and the game ends when they reach 0. The player receives an extra shot if they destroy all of the targets on a level while only firing once, as well as when they pass a specific numbe of points. This amount starts at 250 and doubles every time it is passed.</p>
   </div>
 </body>
 </html>

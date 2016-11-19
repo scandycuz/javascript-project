@@ -1,3 +1,7 @@
+a {
+  outline: 0 !important;
+}
+
 #gameCanvas {
   margin: 2em auto 1em;
   margin-bottom: 0;
@@ -9,6 +13,10 @@
 body {
   position: relative;
 }
+p {
+  font-family: 'Space Mono', sans-serif;
+}
+
 #cannon-cover {
   position: absolute;
   left: 0;
@@ -36,15 +44,56 @@ body {
   left: 0;
   right: 0;
   box-sizing: border-box;
-  padding: 24px 36px;
+  padding: 24px 52px;
 }
 #game-controls span {
   font-family: "VT323";
   font-size: 36px;
   color: #444;
 }
+#game-controls #user-menu {
+  visibility: hidden;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+}
+#user-menu li {
+  margin-right: 2em;
+  width: 2em;
+}
+#user-menu li:first-child {
+  width: auto;
+}
 #game-controls i {
   color: #555;
   font-size: 24px;
+}
+.score {
+  min-width: 4.8em;
+}
+.sound-icons, .info-icon {
+  cursor: pointer;
+}
+.sound-icons:hover i, .info-icon:hover i {
+  color: #FFC41E !important;
+}
+.sound-on {
+  display: inline-block;
+}
+.sound-off {
   display: none;
+}
+.sound-icon {
+  width: 100%;
+}
+.blocker {
+  z-index: 40;
+}
+
+#info-modal a {
+  color: #0497CC;
+  text-decoration: none;
 }
