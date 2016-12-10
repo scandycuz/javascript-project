@@ -1,6 +1,6 @@
 # JavaScript Project
 
-[Live](http://scandycuz.github.io/javascript-project/)
+[Live](http://scandycuz.github.io/reaction/)
 
 The goal of this game is to hit as many targets as possible with as few shots as possible. When a target is hit by a shot, that target is destroyed, and then sends out additional shots that can then hit other targets. The more targets that are hit consecutively starting with a single shot, the more projectiles that will release after each target is destroyed.
 
