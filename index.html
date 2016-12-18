@@ -7,7 +7,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.js"></script>
   <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
   <script src="lib/sprites.js"></script>
-  <script src="lib/orb.js"></script>
   <script src="lib/util.js"></script>
   <script src="lib/reaction.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.css">
@@ -38,8 +37,9 @@
   </div>
 
   <div id="info-modal" style="display:none;">
-    <p>The goal of Reaction is to destroy all of the targets on a level while firing as few shots as possible. When a target is hit, it explodes and sends out additional projectiles that can strike other targets. These additional projectiles do not use up any the player's shots. The longer a chain of consecutive hits is, the more projectiles that will be released with each hit.</p>
-    <p>The player starts with 10 shots, and the game ends when they reach 0. The player receives an extra shot if they destroy all of the targets on a level while only firing once, and two extra shots when they pass a specific number of points. This amount starts at 250 and doubles every time it is passed.</p>
+    <p>The goal of Reaction is to destroy as many targets as possible with as few shots as possible. When a target is hit, it explodes and sends out additional projectiles that can strike other targets. These additional projectiles do not use up any the player's shots. The longer a chain of consecutive hits is, the more projectiles that will be released with each hit.</p>
+    <p>The player starts with 20 shots, and the game ends when they reach 0. The player receives an extra shot if they destroy all of the targets on a level with only one shot and two extra shots when they pass a specific number of points. This amount starts at 250 and doubles every time it is passed.</p>
+    <p>* Difficulty has been decreased to showcase gameplay and level incrementation.</p>
   </div>
 </body>
 </html>
