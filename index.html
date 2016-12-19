@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="style/main.css" media="screen" title="no title">
 </head>
 <body onload="init();">
-  <canvas id="gameCanvas"></canvas>
+  <canvas id="gameCanvas" width=600></canvas>
   <div id="cannon-cover"></div>
   <div id="game-controls">
     <ul id="user-menu">
@@ -39,7 +39,6 @@
   <div id="info-modal" style="display:none;">
     <p>The goal of Reaction is to destroy as many targets as possible with as few shots as possible. When a target is hit, it explodes and sends out additional projectiles that can strike other targets. These additional projectiles do not use up any the player's shots. The longer a chain of consecutive hits is, the more projectiles that will be released with each hit.</p>
     <p>The player starts with 20 shots, and the game ends when they reach 0. The player receives an extra shot if they destroy all of the targets on a level with only one shot and two extra shots when they pass a specific number of points. This amount starts at 250 and doubles every time it is passed.</p>
-    <p>* Difficulty has been decreased to showcase gameplay and level incrementation.</p>
   </div>
 </body>
 </html>
