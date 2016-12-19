@@ -6,10 +6,8 @@ a {
   margin: 2em auto 1em;
   margin-bottom: 0;
   display: block;
-  background:#000;
   height: 700px;
   max-height: 80vh;
-  max-width: 100%;
 }
 body {
   position: relative;
