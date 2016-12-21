@@ -27,7 +27,6 @@ Code to determine the number and angles of the bullets released after a target i
 
 ```js
   function ExplodeTarget(target, collidedBullet) {
-
     // get number of bullets
     let numberOfBullets = collidedBullet.numberOfBullets;
 
