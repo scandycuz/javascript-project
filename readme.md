@@ -2,9 +2,9 @@
 
 [Live](http://scandycuz.github.io/reaction/)
 
-The goal of Reaction is to hit as many targets as possible with as few shots as possible. When a target is hit by a shot, that target is destroyed, and then sends out additional shots that can then hit other targets. The more targets that are hit consecutively starting with a single shot, the more projectiles that will release after each target is destroyed.
+The goal of Reaction is to hit as many targets as possible while firing as few times as possible. When a target is hit by a shot, that target is destroyed, and then sends out additional shots that can then hit other targets. The more targets that are hit consecutively starting with a single shot, the more projectiles that will release after each target is destroyed.
 
-The player starts with 10 shots. If the player destroys all of the targets on a single level, they will regain the shot they used. The player also gains two additional shots every time a points goal is met, starting at 250 points and doubling each time it is passed. The width of the game canvas also increases at a set level interval, in order to further increment the difficulty. When the player runs out of shots, the game ends.
+The player starts with 20 shots. If the player destroys all of the targets on a single level, they will regain the shot they used. The player also gains two additional shots every time a points threshold is passed, starting at 250 points and doubling each time. Every set number of levels, the width of the game canvas increases in width and the amount of targets increases. When the player runs out of shots, the game ends.
 
 ### Technologies
 
@@ -49,6 +49,5 @@ Code to determine the number and angles of the bullets released after a target i
 
 ### Future Implementation
 
-* Add more sound effects / music
-* Add varieties of targets with different behaviors
+* Add new varieties of targets with different behaviors to increase difficulty at later levels. For example, targets that require more than one shot to destroy.
 * Add power-ups for additional projectile behaviors
