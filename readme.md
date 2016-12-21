@@ -21,7 +21,7 @@ The player starts with 20 shots. If the player destroys all of the targets on a 
 * Web Font Loader
   * Google Fonts JavaScript library
 
-### Additional Information
+### Code Snippet
 
 Code to determine the number and angles of bullets released after a target is hit by a bullet:
 
