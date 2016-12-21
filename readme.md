@@ -23,7 +23,7 @@ The player starts with 20 shots. If the player destroys all of the targets on a 
 
 ### Additional Information
 
-Code to determine the number and angles of the bullets released after a target is hit by a bullet:
+Code to determine the number and angles of bullets released after a target is hit by a bullet:
 
 ```js
   function ExplodeTarget(target, collidedBullet) {
@@ -34,14 +34,14 @@ Code to determine the number and angles of the bullets released after a target i
     let currentAngle = 360;
     let angleToDecrementBy = 360 / numberofBullets;
 
-    // increment number of bullets released after subsequent collisions
+    // increment number of bullets to be released in subsequent collisions
     if (numberOfBullets < 12) {
-      nextNumberOfBullets += 4;
+      numberOfBullets += 4;
     }
 
     // Create new bullets
     while (currentAngle > 0) {
-      createBullet(currentAngle, nextNumberOfBullets);
+      createBullet(currentAngle, numberOfBullets);
       currentAngle -= angleToDecreaseBy;
     }
   }
